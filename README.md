@@ -22,7 +22,7 @@ This script depends on the `python-twitter` module, so make sure you install it 
 pip3 install python-twitter
 ```
 
-You can read more about the python-twitter module here: https://python-twitter.readthedocs.io/en/latest/twitter.html#twitter.api.Api.PostUpdate
+You can read more about the [python-twitter module here](https://python-twitter.readthedocs.io/en/latest/twitter.html#twitter.api.Api.PostUpdate).
 
 ## Data Formatting
 
