@@ -22,6 +22,8 @@ This script depends on the `python-twitter` module, so make sure you install it 
 pip3 install python-twitter
 ```
 
+You can read more about the python-twitter module here: https://python-twitter.readthedocs.io/en/latest/twitter.html#twitter.api.Api.PostUpdate
+
 ## Data Formatting
 
 In the Twitter Data Archive, you want to pull the file data/tweet.js and modify it to be in JSON format. The first line should look like this:
