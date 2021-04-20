@@ -2,18 +2,15 @@
 ########################################
 # Import required modules
 
-import sys
-import time
 from datetime import datetime
-import os
 import twitter
-from dateutil.parser import parse
-import numpy as np
-import pandas as pd
 import json
 
 ########################################
 # API Credentials
+#
+# See README for specifics on setting up API Credentials:
+# https://github.com/cozyviking/delete-old-tweets-using-python#setup-credentials
 
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
