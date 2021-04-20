@@ -82,6 +82,9 @@ range_end = datetime.strptime('Jan 02 00:00:00 +0000 2021', '%b %d %H:%M:%S %z %
 
 I would highly recommend setting a very small date range as a test first, just to make sure this is going to work as you intend! 
 
-## Run!
+## Ready-set-go!
 
-Once you've tested and are happy with the results, you're all set to run! The high-level logic of this script is to read in the file `tweetList.json`, create an array of tweets that match the date range you wish to delete, and then iterate over this array using the Twitter API to actually delete them. 
+**DISCLAIMER**: The purpose of this script is to delete tweets, so please make sure you have thoroughly tested and reasonably understand what will happen when you run this! There is no `undo` once the tweets have been deleted.
+
+Once you've tested and are happy with the results, you're all set to run. The high-level logic of this script is to read in the file `tweetList.json`, create an array of tweets that match the date range you wish to delete, and then iterate over this array using the Twitter API to actually delete them. 
+
